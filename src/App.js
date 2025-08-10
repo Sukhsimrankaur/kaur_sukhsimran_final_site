@@ -11,26 +11,26 @@ function App() {
   return (
     <div className="app-container">
       <nav>
-        <button 
-          onClick={() => setPage('basic')} 
+        <button
+          onClick={() => setPage('basic')}
           className={page === 'basic' ? 'active' : ''}
         >
           Basic Info
         </button>
-        <button 
-          onClick={() => setPage('work')} 
+        <button
+          onClick={() => setPage('work')}
           className={page === 'work' ? 'active' : ''}
         >
           Work
         </button>
-        <button 
-          onClick={() => setPage('skills')} 
+        <button
+          onClick={() => setPage('skills')}
           className={page === 'skills' ? 'active' : ''}
         >
           Skills
         </button>
-        <button 
-          onClick={() => setPage('resources')} 
+        <button
+          onClick={() => setPage('resources')}
           className={page === 'resources' ? 'active' : ''}
         >
           Resources

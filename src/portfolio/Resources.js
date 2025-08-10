@@ -42,7 +42,12 @@ function Resources() {
           <div className="resource-content">
             <h3>{res.title}</h3>
             <p>{res.summary}</p>
-            <a href={res.link} target="_blank" rel="noopener noreferrer" className="resource-link">
+            <a
+              href={res.link}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="resource-link"
+            >
               Learn More
             </a>
           </div>

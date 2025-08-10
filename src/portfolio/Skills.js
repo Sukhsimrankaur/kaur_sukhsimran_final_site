@@ -5,7 +5,15 @@ function Skills() {
   const skillCategories = [
     {
       title: 'Languages & Frameworks',
-      skills: ['JavaScript', 'React', 'PHP', 'SQL', 'HTML', 'CSS', 'Ruby on Rails'],
+      skills: [
+        'JavaScript',
+        'React',
+        'PHP',
+        'SQL',
+        'HTML',
+        'CSS',
+        'Ruby on Rails',
+      ],
     },
     {
       title: 'Tools & Platforms',
@@ -23,21 +31,26 @@ function Skills() {
     },
     {
       title: 'Other Expertise',
-      skills: ['Responsive Design', 'REST API Integration', 'Unit Testing', 'Web Security Basics'],
+      skills: [
+        'Responsive Design',
+        'REST API Integration',
+        'Unit Testing',
+        'Web Security Basics',
+      ],
     },
   ];
 
   return (
     <section className="skills-section">
       <h2>Skills</h2>
-      
+
       {/* Add your image here */}
-      <img 
-        src="/images/Languages.jpg" 
-        alt="Skills Banner" 
-        className="skills-banner" 
+      <img
+        src="/images/Languages.jpg"
+        alt="Skills Banner"
+        className="skills-banner"
       />
-      
+
       <div className="skills-grid">
         {skillCategories.map((category, index) => (
           <div className="skills-card" key={index}>

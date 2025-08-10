@@ -1,8 +1,9 @@
+import React from 'react';
 import { render, screen } from '@testing-library/react';
-import App from './App';
+import App from './App';  // Corrected path
 
-test('renders learn react link', () => {
+test('renders navigation button Basic Info', () => {
   render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+  const basicInfoButton = screen.getByRole('button', { name: /Basic Info/i });
+  expect(basicInfoButton).toBeInTheDocument();
 });

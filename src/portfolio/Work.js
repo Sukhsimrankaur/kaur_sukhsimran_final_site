@@ -61,7 +61,11 @@ function Work() {
           rel="noopener noreferrer"
           className={`project-row ${i % 2 === 1 ? 'reverse' : ''}`}
         >
-          <img src={proj.image} alt={proj.title} className="project-img-vertical" />
+          <img
+            src={proj.image}
+            alt={proj.title}
+            className="project-img-vertical"
+          />
           <div className="project-text">
             <h3>{proj.title}</h3>
             <p>{proj.description}</p>
