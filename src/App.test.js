@@ -1,6 +1,6 @@
 import React from 'react';
 import { render, screen } from '@testing-library/react';
-import App from './App';  // Corrected path
+import App from './App'; // Corrected path
 
 test('renders navigation button Basic Info', () => {
   render(<App />);
